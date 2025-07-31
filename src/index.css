@@ -1,0 +1,9 @@
+@import 'tailwindcss';
+
+.clip-path-triangle {
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.font-rubik {
+  font-family: 'Rubik', sans-serif;
+}
