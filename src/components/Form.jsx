@@ -47,10 +47,10 @@ function Form({ isOpen, onClose }) {
       setName('')
       setPhone('')
 
-      // setTimeout(() => {
-      //   openTelegramLink()
-      //   onClose()
-      // }, 1000)
+      setTimeout(() => {
+        openTelegramLink()
+        onClose()
+      }, 1000)
 
       setTimeout(() => {
         setBtnText('Yuborish')
@@ -63,7 +63,7 @@ function Form({ isOpen, onClose }) {
 
   const openTelegramLink = () => {
     const link = document.createElement('a')
-    link.href = 'https://t.me/+-obMKv_Z7H03MDNi'
+    link.href = 'https://t.me/+UzO95Y7_pFA5OGFi'
     link.target = '_blank'
     link.rel = 'noopener noreferrer'
 

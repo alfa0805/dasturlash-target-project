@@ -57,7 +57,7 @@ function App() {
           <div className="lg:max-w-[40rem] w-full md:hidden">
             <ul className="text-white w-full bg-none rounded-2xl flex items-center flex-col md:gap-5 shadow-[#9816c75c] shadow-2xl">
               <li className="text-center w-full px-2 bg-gray-800/50 py-2 md:py-5 backdrop-blur-2xl flex items-center justify-between">
-                <h2 className="font-rubik text-gray-300">12-13-Avgust</h2>
+                <h2 className="font-rubik text-gray-300">10-11-Avgust</h2>
                 <h2 className="font-rubik text-xl md:text-4xl font-bold">
                   20:30
                 </h2>
