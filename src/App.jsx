@@ -66,20 +66,26 @@ function App() {
               </h2>
               <ul className="md:space-y-4 space-y-3 max-w-[80%] text-shadow-[1px_1px_1px_#000]">
                 <li className="text-white flex items-start gap-2 md:items-center">
-                  <GrValidate className="text-3xl md:text-4xl text-fuchsia-600" />
+                  <span className="min-w-5 md:max-w-[25px]">
+                    <GrValidate className="text-3xl w-full md:text-4xl text-fuchsia-600" />
+                  </span>
                   <p className="font-rubik text-sm md:text-xl">
                     Dasturlashni 0 dan qisqa vaqtda o'rganish qadamlarini
                   </p>
                 </li>
-                <li className="text-white flex items-start gap-2 md:items-center">
-                  <GrValidate className="text-3xl md:text-4xl text-fuchsia-600" />
+                <li className="text-white  flex items-start gap-2 md:items-center">
+                  <span className="min-w-5 md:max-w-[25px]">
+                    <GrValidate className="text-3xl w-full md:text-4xl text-fuchsia-600" />
+                  </span>
                   <p className="font-rubik text-sm md:text-xl">
                     Dasturlashda soha tanlash va daromadgacha chiqish
                     qadamlarini
                   </p>
                 </li>
                 <li className="text-white flex items-start gap-2 md:items-center">
-                  <GrValidate className="text-3xl md:text-4xl text-fuchsia-600" />
+                  <span className="min-w-5 md:max-w-[25px]">
+                    <GrValidate className="text-3xl w-full md:text-4xl text-fuchsia-600" />
+                  </span>
                   <p className="font-rubik text-sm md:text-xl">
                     Birinchi 1000$ topish uslublarini o'rganasiz
                   </p>
