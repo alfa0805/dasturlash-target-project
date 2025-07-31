@@ -1,5 +1,5 @@
 import { GrValidate } from "react-icons/gr";
-import Img from "./assets/img3.png";
+import Img from "./assets/img2.png";
 import Background from "./components/Background";
 import { useState } from "react";
 import Form from "./components/Form.jsx";
@@ -33,18 +33,19 @@ function App() {
             />
           </div>
         </div>
+
         <div className="relative">
-          <div className="lg:max-w-[40rem]">
+          <div className="lg:max-w-[40rem] hidden md:block">
             <ul className="text-white grid grid-cols-2 gap-2 md:gap-5">
               <li className="text-center bg-gray-900/50 py-2 md:py-5 rounded-b-4xl backdrop-blur-2xl ">
-                <h2 className="font-rubik text-gray-300">10-Avgust</h2>
+                <h2 className="font-rubik text-gray-300">12-13-Avgust</h2>
                 <h2 className="font-rubik text-2xl md:text-4xl font-bold">
                   20:30
                 </h2>
               </li>
               <li className="text-center bg-gray-900/50 py-2 md:py-5 rounded-b-4xl backdrop-blur-2xl ">
                 <h2 className="font-rubik text-gray-300 line-through">
-                  320 000 so'm
+                  500 000 so'm
                 </h2>
                 <h2 className="font-rubik text-2xl md:text-4xl font-bold">
                   BEPUL
@@ -52,8 +53,29 @@ function App() {
               </li>
             </ul>
           </div>
+          {/* telefon versiya -------------------- */}
+          <div className="lg:max-w-[40rem] w-full md:hidden">
+            <ul className="text-white w-full bg-none rounded-2xl flex items-center flex-col md:gap-5 shadow-[#9816c75c] shadow-2xl">
+              <li className="text-center w-full px-2 bg-gray-800/50 py-2 md:py-5 backdrop-blur-2xl flex items-center justify-between">
+                <h2 className="font-rubik text-gray-300">12-13-Avgust</h2>
+                <h2 className="font-rubik text-xl md:text-4xl font-bold">
+                  20:30
+                </h2>
+              </li>
+              <li className="text-center w-full px-2 rounded-b-2xl bg-gray-800/50 pb-3 backdrop-blur-2xl flex items-center justify-between">
+                <h2 className="font-rubik text-gray-300 line-through">
+                  500 000 so'm
+                </h2>
+                <h2 className="font-rubik text-xl md:text-4xl font-bold">
+                  BEPUL
+                </h2>
+              </li>
+            </ul>
+          </div>
 
-          <h2 className="text-white font-rubik text-2xl sm:text-3xl md:text-5xl font-bold text-center uppercase mt-9 mb-10 block md:hidden">
+          {/* cards --------------------  */}
+
+          <h2 className="text-white font-rubik text-2xl sm:text-3xl md:text-5xl font-bold text-center uppercase mt-5 md:mt-9 mb-10 block md:hidden">
             DASTURLASHDA 0 DAN NATIJAGACHA
           </h2>
           <div className="relative">
@@ -65,14 +87,6 @@ function App() {
                 BEPUL VEBINAR DAVOMIDA NIMALARNI O'RGANASIZ?
               </h2>
               <ul className="md:space-y-4 space-y-3 max-w-[80%] text-shadow-[1px_1px_1px_#000]">
-                <li className="text-white flex items-start gap-2 md:items-center">
-                  <span className="min-w-5 md:max-w-[25px]">
-                    <GrValidate className="text-3xl w-full md:text-4xl text-fuchsia-600" />
-                  </span>
-                  <p className="font-rubik text-sm md:text-xl">
-                    Dasturlashni 0 dan qisqa vaqtda o'rganish qadamlarini
-                  </p>
-                </li>
                 <li className="text-white  flex items-start gap-2 md:items-center">
                   <span className="min-w-5 md:max-w-[25px]">
                     <GrValidate className="text-3xl w-full md:text-4xl text-fuchsia-600" />
@@ -80,6 +94,14 @@ function App() {
                   <p className="font-rubik text-sm md:text-xl">
                     Dasturlashda soha tanlash va daromadgacha chiqish
                     qadamlarini
+                  </p>
+                </li>
+                <li className="text-white flex items-start gap-2 md:items-center">
+                  <span className="min-w-5 md:max-w-[25px]">
+                    <GrValidate className="text-3xl w-full md:text-4xl text-fuchsia-600" />
+                  </span>
+                  <p className="font-rubik text-sm md:text-xl">
+                    Dasturlashni 0 dan qisqa vaqtda o'rganish qadamlarini
                   </p>
                 </li>
                 <li className="text-white flex items-start gap-2 md:items-center">
@@ -116,9 +138,16 @@ function App() {
             </div>
           </div>
         </div>
+
         <div className="w-full md:hidden">
-          <div className="fixed bottom-0 left-0 right-0 px-4 pb-4 bg-gradient-to-t from-black/70 to-transparent pt-8">
-            <div className="text-white flex gap-2 items-center mb-4">
+          <div className="fixed bottom-10 left-0 right-0 px-4 pb-4 bg-gradient-to-t from-black/70 to-transparent pt-8">
+            <button
+              onClick={() => setIsFormOpen(true)}
+              className="cursor-pointer bg-gradient-to-t from-[#520078] to-[#9500b7] hover:from-[#9500b7] hover:to-[#520078] duration-500 text-white py-6 text-[25px] rounded-full w-full shadow-lg"
+            >
+              RO'YXATDAN O'TISH
+            </button>
+            <div className="text-white flex gap-2 items-center mt-4 justify-center">
               <div className=" px-3 py-1 min-[700px]:w-8 min-[700px]:h-8 flex items-center justify-center bg-[#c53bf79a] backdrop-blur-xs text-white rounded-md text-xl font-bold">
                 <p className="text-sm md:text-2xl">!</p>
               </div>
@@ -126,12 +155,6 @@ function App() {
                 Darsda qatnashish uchun joyingizni band qiling.
               </p>
             </div>
-            <button
-              onClick={() => setIsFormOpen(true)}
-              className="cursor-pointer bg-gradient-to-t from-[#520078] to-[#9500b7] hover:from-[#9500b7] hover:to-[#520078] duration-500 text-white py-4 rounded-full w-full shadow-lg"
-            >
-              RO'YXATDAN O'TISH
-            </button>
           </div>
           <Form isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
         </div>

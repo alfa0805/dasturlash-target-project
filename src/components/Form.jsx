@@ -9,7 +9,7 @@ function Form({ isOpen, onClose }) {
   const modalRef = useRef()
 
   const BOT_TOKEN = '7500676241:AAFw7_cLrYecHTqMHNeAhmjAZVIKiOyAADI'
-  const CHAT_ID = '-1002830808895'
+  const CHAT_ID = ''
   const SHEET_URL =
     'https://script.google.com/macros/s/AKfycbyxKEdwdsFulTJIzGYVp3de5g7UNO5QoumE8CRGvRC4NjZLiTVPugaZmmczJVBWFyDptA/exec'
 
