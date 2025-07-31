@@ -8,11 +8,10 @@ function Form({ isOpen, onClose }) {
   const [btnText, setBtnText] = useState('Yuborish')
   const modalRef = useRef()
 
-  const BOT_TOKEN = '7500676241:AAFw7_cLrYecHTqMHNeAhmjAZVIKiOyAADI'
-  const CHAT_ID = ''
+  const BOT_TOKEN = '8310381708:AAFMlkMv59XwlDJ3nGuxI4qypoX3a1HCB-w'
+  const CHAT_ID = '-1002609658773'
   const SHEET_URL =
-    'https://script.google.com/macros/s/AKfycbyxKEdwdsFulTJIzGYVp3de5g7UNO5QoumE8CRGvRC4NjZLiTVPugaZmmczJVBWFyDptA/exec'
-
+    'https://script.google.com/macros/s/AKfycbwBaHY9vnOcLwGNJ9l-N47uIofUJwN_kyQBaBgvJeAgC4GYtH5aBOME2dVYynwRbiTuFw/exec'
   const sendMessage = async (e) => {
     e.preventDefault()
 
@@ -48,10 +47,10 @@ function Form({ isOpen, onClose }) {
       setName('')
       setPhone('')
 
-      setTimeout(() => {
-        openTelegramLink()
-        onClose()
-      }, 1000)
+      // setTimeout(() => {
+      //   openTelegramLink()
+      //   onClose()
+      // }, 1000)
 
       setTimeout(() => {
         setBtnText('Yuborish')

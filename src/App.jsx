@@ -9,7 +9,7 @@ function App() {
     <Background>
       <div className="px-[0.6rem] md:px-[1rem] lg:px-[2rem] max-w-7xl mx-auto min-h-screen text-shadow-[1px_1px_1.5px_2px_#000] pb-24 md:pb-0">
         {/* ismi va uning vazifasi */}
-        <div className="absolute p-2 md:py-5 md:px-10 text-white md:bottom-30 bottom-70 md:-rotate-9 md:right-40 right-2 z-50 border-1 border-blue-500/20 rounded-2xl bg-[#331d37] md:bg-[#331d37] backdrop-blur-[1px]">
+        <div className="absolute p-2 md:py-5 md:px-10 text-white md:bottom-30 bottom-70 md:-rotate-9 md:right-40 right-2 z-50 border-1 border-[#831896] shadow-2xl shadow-[#5f196cd3] rounded-2xl bg-[#331d3793] md:bg-[#331d37ce] backdrop-blur-xs">
           <h3 className="font-rubik text-sm md:text-xl font-bold">
             Rustambek Mamadaliyev
           </h3>
@@ -17,7 +17,7 @@ function App() {
             Senior dasturchi
           </p>
         </div>
-        <div className="w-[18rem] md:w-[28rem] lg:w-[28rem] absolute top-[20%] sm:top-[25%] md:top-[15%] lg:top-[10%] -right-0 sm:right-5 lg:right-5">
+        <div className="w-[15rem] md:w-[28rem] lg:w-[28rem] absolute top-[20%] sm:top-[25%] md:top-[15%] lg:top-[10%] -right-0 sm:right-5 lg:right-5">
           <div className="relative">
             <div className="absolute inset-15 bg-[#a200dd90] blur-3xl rounded-full -z-10"></div>
             <img
@@ -125,7 +125,7 @@ function App() {
                 </div>
                 <button
                   onClick={() => setIsFormOpen(true)}
-                  className="cursor-pointer bg-gradient-to-t from-[#520078] to-[#9500b7] hover:from-[#9500b7] hover:to-[#520078] duration-500 text-white py-6 text-2xl font-bold font-rubik rounded-full w-full"
+                  className="cursor-pointer bg-gradient-to-t from-[#520078] to-[#9500b7] hover:from-[#9500b7] hover:to-[#520078] duration-500 text-white py-6 mb-4 text-2xl font-bold font-rubik rounded-full w-full"
                 >
                   RO'YXATDAN O'TISH
                 </button>
