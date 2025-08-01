@@ -35,26 +35,26 @@ function App() {
         </div>
 
         <div className="relative">
-          <div className="lg:max-w-[40rem] hidden md:block">
-            <ul className="text-white grid grid-cols-2 gap-2 md:gap-5">
-              <li className="text-center bg-gray-900/50 py-2 md:py-5 rounded-b-4xl backdrop-blur-2xl ">
-                <h2 className="font-rubik text-gray-300">12-13-Avgust</h2>
-                <h2 className="font-rubik text-2xl md:text-4xl font-bold">
+          <div className="lg:max-w-[40rem]">
+            <ul className="text-white grid grid-cols-2 gap-2 md:gap-5 ">
+              <li className="text-center bg-gray-900/50 py-2 md:py-5 rounded-b-4xl backdrop-blur-2xl shadow-[#9816c75c] shadow-2xl">
+                <h2 className="font-rubik text-gray-300 max-[550px]:text-sm">12-13-Avgust</h2>
+                <h2 className="font-rubik text-lg md:text-4xl font-bold">
                   20:30
                 </h2>
               </li>
-              <li className="text-center bg-gray-900/50 py-2 md:py-5 rounded-b-4xl backdrop-blur-2xl ">
-                <h2 className="font-rubik text-gray-300 line-through">
+              <li className="text-center bg-gray-900/50 py-2 md:py-5 rounded-b-4xl backdrop-blur-2xl shadow-[#9816c75c] shadow-2xl">
+                <h2 className="font-rubik max-[550px]:text-sm text-gray-300 line-through">
                   500 000 so'm
                 </h2>
-                <h2 className="font-rubik text-2xl md:text-4xl font-bold">
+                <h2 className="font-rubik text-lg md:text-4xl font-bold">
                   BEPUL
                 </h2>
               </li>
             </ul>
           </div>
           {/* telefon versiya -------------------- */}
-          <div className="lg:max-w-[40rem] w-full md:hidden">
+          {/* <div className="lg:max-w-[40rem] w-full hidden">
             <ul className="text-white w-full bg-none rounded-2xl flex items-center flex-col md:gap-5 shadow-[#9816c75c] shadow-2xl">
               <li className="text-center w-full px-2 bg-gray-800/50 py-2 md:py-5 backdrop-blur-2xl flex items-center justify-between">
                 <h2 className="font-rubik text-gray-300">10-11-Avgust</h2>
@@ -71,11 +71,11 @@ function App() {
                 </h2>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* cards --------------------  */}
 
-          <h2 className="text-white font-rubik text-2xl sm:text-3xl md:text-5xl font-bold text-center uppercase mt-5 md:mt-9 mb-10 block md:hidden">
+          <h2 className="text-white font-rubik text-xl sm:text-3xl md:text-5xl font-bold text-center uppercase mt-5 md:mt-9 mb-10 block md:hidden">
             DASTURLASHDA 0 DAN NATIJAGACHA
           </h2>
           <div className="relative">
@@ -83,7 +83,7 @@ function App() {
               <h2 className="text-white font-rubik text-4xl font-bold uppercase mt-9 mb-10 hidden md:block">
                 DASTURLASHDA 0 DAN NATIJAGACHA
               </h2>
-              <h2 className="text-white font-rubik text-md sm:text-xl md:text-2xl font-bold uppercase md:mb-8 mb-5 relative">
+              <h2 className="text-white font-rubik text-sm sm:text-xl md:text-2xl font-bold uppercase md:mb-8 mb-5 relative">
                 BEPUL VEBINAR DAVOMIDA NIMALARNI O'RGANASIZ?
               </h2>
               <ul className="md:space-y-4 space-y-3 max-w-[80%] text-shadow-[1px_1px_1px_#000]">
@@ -91,7 +91,7 @@ function App() {
                   <span className="min-w-5 md:max-w-[25px]">
                     <GrValidate className="text-3xl w-full md:text-4xl text-fuchsia-600" />
                   </span>
-                  <p className="font-rubik text-sm md:text-xl">
+                  <p className="font-rubik text-[12px] md:text-xl">
                     Dasturlashda soha tanlash va daromadgacha chiqish
                     qadamlarini
                   </p>
@@ -100,7 +100,7 @@ function App() {
                   <span className="min-w-5 md:max-w-[25px]">
                     <GrValidate className="text-3xl w-full md:text-4xl text-fuchsia-600" />
                   </span>
-                  <p className="font-rubik text-sm md:text-xl">
+                  <p className="font-rubik text-[12px] md:text-xl">
                     Dasturlashni 0 dan qisqa vaqtda o'rganish qadamlarini
                   </p>
                 </li>
@@ -108,7 +108,7 @@ function App() {
                   <span className="min-w-5 md:max-w-[25px]">
                     <GrValidate className="text-3xl w-full md:text-4xl text-fuchsia-600" />
                   </span>
-                  <p className="font-rubik text-sm md:text-xl">
+                  <p className="font-rubik text-[12px] md:text-xl">
                     Birinchi 1000$ topish uslublarini o'rganasiz
                   </p>
                 </li>
