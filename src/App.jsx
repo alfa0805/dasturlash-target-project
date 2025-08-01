@@ -147,8 +147,7 @@ function App() {
               onClick={() => setIsFormOpen(true)}
               className="cursor-pointer bg-gradient-to-t from-[#520078] to-[#9500b7] 
     hover:from-[#9500b7] hover:to-[#520078] 
-    text-white py-6 text-[25px] rounded-full w-full shadow-lg 
-    soft-pulse transition-transform"
+    text-white py-6 text-[25px] rounded-full w-full attention-button"
             >
               RO'YXATDAN O'TISH
             </button>
