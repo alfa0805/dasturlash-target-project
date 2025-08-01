@@ -38,7 +38,7 @@ function App() {
           <div className="lg:max-w-[40rem]">
             <ul className="text-white grid grid-cols-2 gap-2 md:gap-5 ">
               <li className="text-center bg-gray-900/50 py-2 md:py-5 rounded-b-4xl backdrop-blur-2xl shadow-[#9816c75c] shadow-2xl">
-                <h2 className="font-rubik text-gray-300 max-[550px]:text-sm">12-13-Avgust</h2>
+                <h2 className="font-rubik text-gray-300 max-[550px]:text-sm">10-11-Avgust</h2>
                 <h2 className="font-rubik text-lg md:text-4xl font-bold">
                   20:30
                 </h2>
