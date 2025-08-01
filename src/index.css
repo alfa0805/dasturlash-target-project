@@ -7,3 +7,16 @@
 .font-rubik {
   font-family: 'Rubik', sans-serif;
 }
+
+@keyframes softPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.soft-pulse {
+  animation: softPulse 2s ease-in-out infinite;
+}

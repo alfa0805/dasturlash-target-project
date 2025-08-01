@@ -38,7 +38,9 @@ function App() {
           <div className="lg:max-w-[40rem]">
             <ul className="text-white grid grid-cols-2 gap-2 md:gap-5 ">
               <li className="text-center bg-gray-900/50 py-2 md:py-5 rounded-b-4xl backdrop-blur-2xl shadow-[#9816c75c] shadow-2xl">
-                <h2 className="font-rubik text-gray-300 max-[550px]:text-sm">10-11-Avgust</h2>
+                <h2 className="font-rubik text-gray-300 max-[550px]:text-sm">
+                  10-11-Avgust
+                </h2>
                 <h2 className="font-rubik text-lg md:text-4xl font-bold">
                   20:30
                 </h2>
@@ -143,10 +145,14 @@ function App() {
           <div className="fixed bottom-10 left-0 right-0 px-4 pb-4 bg-gradient-to-t from-black/70 to-transparent pt-8">
             <button
               onClick={() => setIsFormOpen(true)}
-              className="cursor-pointer bg-gradient-to-t from-[#520078] to-[#9500b7] hover:from-[#9500b7] hover:to-[#520078] duration-500 text-white py-6 text-[25px] rounded-full w-full shadow-lg"
+              className="cursor-pointer bg-gradient-to-t from-[#520078] to-[#9500b7] 
+    hover:from-[#9500b7] hover:to-[#520078] 
+    text-white py-6 text-[25px] rounded-full w-full shadow-lg 
+    soft-pulse transition-transform"
             >
               RO'YXATDAN O'TISH
             </button>
+
             <div className="text-white flex gap-2 items-center mt-4 justify-center">
               <div className=" px-3 py-1 min-[700px]:w-8 min-[700px]:h-8 flex items-center justify-center bg-[#c53bf79a] backdrop-blur-xs text-white rounded-md text-xl font-bold">
                 <p className="text-sm md:text-2xl">!</p>
